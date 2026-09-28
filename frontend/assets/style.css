@@ -32,9 +32,13 @@ body {
 }
 
 .header-brand .wordmark {
-  height: 32px;
+  height: 40px;
   width: auto;
   object-fit: contain;
+  /* white tile so the green logo stays visible on the green header */
+  background: #fff;
+  border-radius: 6px;
+  padding: 3px 6px;
 }
 
 .header-brand .divider {

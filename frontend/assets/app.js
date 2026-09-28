@@ -13,7 +13,7 @@ const DASHBOARD_URL = 'https://adb-984752964297111.11.azuredatabricks.net/embed/
 function Header() {
   return React.createElement('header', { className: 'header' },
     React.createElement('div', { className: 'header-brand' },
-      React.createElement('img', { className: 'wordmark', src: '/assets/bp-logo.svg', alt: 'BP' }),
+      React.createElement('img', { className: 'wordmark', src: '/assets/bp-logo.png', alt: 'bp' }),
       React.createElement('span', { className: 'divider' }),
       React.createElement('span', { className: 'title' }, 'Charger Network Intelligence')
     ),
